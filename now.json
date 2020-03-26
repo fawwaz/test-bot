@@ -1,0 +1,6 @@
+{
+  "env": {
+    "TOKEN": "@token",
+    "CHANNEL_ID": "@channel_id"
+  }
+}

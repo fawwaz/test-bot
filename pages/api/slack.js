@@ -1,3 +1,19 @@
+// const { WebClient } = require('@slack/web-api');
+
+// // An access token (from your Slack app or custom integration - xoxp, xoxb)
+// const token = 
+// const web = new WebClient(token);
+
+// // This argument can be a channel ID, a DM ID, a MPDM ID, or a group ID
+// const conversationId = 'GSV3TJYSC';
+
+// (async () => {
+//   // See: https://api.slack.com/methods/chat.postMessage
+//   const res = await web.chat.postMessage({ channel: conversationId, text: 'This message is delivered from chat.postMessage client' });
+
+//   // `res` contains information about the posted message
+//   console.log('Message sent: ', res.ts);
+// })();
 import Cors from 'cors';
 import { WebClient } from '@slack/web-api';
 import { getDate } from 'date-fns'
