@@ -17,7 +17,7 @@ function runMiddleware(req, res, fn) {
 function getMessage(array) {
   const time = Math.floor(getDate(new Date()) / 1000) + 3;
   const selectedIdx = time % array.length;
-  return array[selectedIdx];
+  return array[0];
 }
 
 const cors = new Cors({
@@ -29,7 +29,7 @@ const conversationId = process.env.CHANNEL_ID;
 const slack = new WebClient(token);
 
 const messages = [
-  'Hi @accom-web-eng daily slackup time !',
+  'Hi @accom-web-eng daily slackup time ! Please log your activities in this thread',
   'Sebagai bos, saya mau minta laporan kalian hari ini ngapain aja. KERJA WOI !!! @accom-web-eng, pecut nih !',
   'Ayo @accom-web-eng, ngapain aja hari ini ?',
   'Gw udah masuk kantor kok kalian gak ada ? coba seharian ini kalian ngapaain aja ? @accom-web-eng',
