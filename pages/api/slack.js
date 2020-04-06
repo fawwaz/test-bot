@@ -30,7 +30,7 @@ const slack = new WebClient(token);
 
 const messages = [
   'Hi @accom-web-eng daily slackup time ! Please log your activities in this thread',
-  'Hi @accom-web-eng sudah hampir 3 tahun gw jadi lead kalian, gw minta maaf sebesar-besarnya kalau ada yang salah. Mudah mudahan kita bisa ketemu lagi setelah corona padam. dengan breat hati gw sampaikan gw ulang tahun hari ini. TOLONG DONG DIUCAPIN SELAMAT DONG!! Kalau mau traktir gw bisa kirim gofood ke alamat ini : Bassura City Apartment Tower Edelweiss, Unit E/17/BG, JI. Jend. Basuki Rachmat Blok Al Abror No. 45 RT8/RW10 Jatinegara, Jakarta Timur, 13410 DKI Jakarta ditunggu loh. jangan lupa laporan hari ini ngapain aja di thread ini guys !!',
+  'Ya kemaren itu gladi bersih ulang tahun gw.. Ulang tahun gw hari ini. Tapi kok gw gak nerima ada yang ngirim kado ultah ke apartemen gw ? Ayo laporan dulu hari ini ngapain ?',
   'Sebagai bos, saya mau minta laporan kalian hari ini ngapain aja. KERJA WOI !!! @accom-web-eng, pecut nih !',
   'Ayo @accom-web-eng, ngapain aja hari ini ?',
   'Gw udah masuk kantor kok kalian gak ada ? coba seharian ini kalian ngapaain aja ? @accom-web-eng',
