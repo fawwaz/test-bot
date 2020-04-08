@@ -17,7 +17,7 @@ function runMiddleware(req, res, fn) {
 function getMessage(array) {
   const time = Math.floor(getDate(new Date()) / 1000) + 3;
   const selectedIdx = time % array.length;
-  return array[1];
+  return array[0];
 }
 
 const cors = new Cors({
